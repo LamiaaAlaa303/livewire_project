@@ -1,8 +1,22 @@
 @extends('front.master')
 
+@section('title' , 'Index')
+@section('index-active' , 'active')
+
+{{-- Index
+@endsection --}}
+
+
+@section('header-content')
+
+    @include('front.partials.header')
+
+@endsection
+
+
 @section('content')
 
-
+        <!-- Feature Start -->
  <div class="container-xxl py-5">
             <div class="container py-5 px-lg-5">
                 <div class="row g-4">
